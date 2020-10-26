@@ -15,3 +15,4 @@ A small python script that runs in a container and:
 
 ### View structure of the container
 - Run `docker save <tag name> > <name>.tar` to create .tar file to view the container structures
+- There's also a .tar file included in this repository for use
