@@ -8,6 +8,10 @@ A small python script that runs in a container and:
 - Save all results into `/home/output/result.txt`
 - Read from `/home/output/result.txt` and print out content when container starts
 
-### Build the image
+### Build the image and run the container
+- Run `docker build -t <tag name> .` to build the image
+- Run `docker run <tag name>` to run the container
+- Container runs and shows all the infos from **result.txt** that was written in.
 
-### Run the container
+### View structure of the container
+- Run `docker save <tag name> > <name>.tar` to create .tar file to view the container structures
